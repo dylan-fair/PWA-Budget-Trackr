@@ -17,7 +17,7 @@ const FILES_TO_CACHE = [
     './icons/icon-384x384.png',
     './icons/icon-512x512.png',
 ]
-
+ //i added this to redeploy
 self.addEventListener('fetch', function (e) {
     console.log('fetch request : ', e.request.url)
     console.log('e request', e.request);
